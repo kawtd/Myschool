@@ -1,0 +1,44 @@
+{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+
+{% block menu %}
+    <h1 align ="center">Ajout Specialite</h1><hr>
+ <form action="" method="post"  {{form_enctype (f)}}>
+     <table>
+<tr>
+    <td>{{ form_label(f.libelle) }}</td>
+    <td>{{ form_widget(f.libelle) }}</td>
+</tr>
+{{ form_widget(f) }}
+<tr>
+    <td><input type="submit" value ="Valider" /></td>
+</tr>
+     </table>
+ <h1>List Specialite</h1>
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Libelle</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for cl in cls %}
+            <tr>
+                <td>{{ cl.id }}</td>
+                <td>{{ cl.libelle }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+        <ul>
+        <li>
+            <a href="{{ path('Specialite_list') }}">
+                Liste Specialite
+            </a>
+        </li>
+    </ul>
+ </form>
+
+ 
+{% endblock %}

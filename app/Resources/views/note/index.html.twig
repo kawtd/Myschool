@@ -1,0 +1,46 @@
+{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+
+{% block menu %}
+    <h1>note list</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Semestre</th>
+                <th>Noteds</th>
+                <th>Noteexam</th>
+                <th>Pourcentageds</th>
+                <th>Pourcentageexam</th>
+                <th>Moyenne</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for note in notes %}
+            <tr>
+                <td><a href="{{ path('note_show', { 'id': note.id }) }}">{{ note.id }}</a></td>
+                <td>{{ note.semestre }}</td>
+                <td>{{ note.noteDs }}</td>
+                <td>{{ note.noteExam }}</td>
+                <td>{{ note.pourcentageDs }}</td>
+                <td>{{ note.pourcentageExam }}</td>
+                <td>{{ note.moyenne }}</td>
+                <td>
+                    <a class="btn btn-primary" href="{{ path('note_show', { 'id': note.id }) }}"><i class="glyphicon glyphicon-eye-open"></i>detail</a>
+                        
+                    <a class="btn btn-success" href="{{ path('note_edit', { 'id': note.id }) }}"><i class="glyphicon glyphicon-edit"></i>modifier</a> 
+                    
+                    <a class="btn btn-danger" href="{{ path('note_delete', { 'id': note.id }) }}"><i class="glyphicon glyphicon-trash"></i>supprimer</a> 
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('note_new') }}">Create a new entry</a>
+        </li>
+    </ul>
+{% endblock %}

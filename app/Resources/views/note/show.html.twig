@@ -1,0 +1,52 @@
+{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+
+{% block menu %}
+    <h1>note</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ note.id }}</td>
+            </tr>
+            <tr>
+                <th>Semestre</th>
+                <td>{{ note.semestre }}</td>
+            </tr>
+            <tr>
+                <th>Noteds</th>
+                <td>{{ note.noteDs }}</td>
+            </tr>
+            <tr>
+                <th>Noteexam</th>
+                <td>{{ note.noteExam }}</td>
+            </tr>
+            <tr>
+                <th>Pourcentageds</th>
+                <td>{{ note.pourcentageDs }}</td>
+            </tr>
+            <tr>
+                <th>Pourcentageexam</th>
+                <td>{{ note.pourcentageExam }}</td>
+            </tr>
+            <tr>
+                <th>Moyenne</th>
+                <td>{{ note.moyenne }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('note_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('note_edit', { 'id': note.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+
+
+{% block ar %}
+
+    <form class ="navbar-form navbar-left" style="margin-left: 900px;" method ="get" action ="{{ path('rechEnseignant')}}">
+        <input type text class ="form-control" placeholder = "Search ...." name ="m">
+
+    </form>
+
+{% endblock %}
+
+{% block menu %}
+
+<br><br>
+    <div class="title_left">
+        <h1>Enseignant List</h1>
+    </div>
+
+  <!-- <div class ="navbar navbar-inverse navbar-fixed-top"  role  = "navigation">
+            <div class ="navbar-header">
+
+            <a class = "navbar-brand" href="">
+                <img src ="{{ asset ('imagee/images1.png')}}" alt ="logo" style = "width: 40px;height: 40px"/></a>
+            </div>
+          <div  class = "collapse navbar-collapse" href="">
+          <ul class ="nav navbar-nav">
+              <li><a href="{{ path('list_enseignant') }}">Enseignant</a></li>
+              <li><a href="{{ path('student_list') }}">Student</a></li>
+          </ul>
+              <form class ="navbar-form navbar-right" method ="get" action ="{{ path('rechEnseignant')}}">
+                  <input type text class ="form-control" placeholder = "Search ...." name ="m"
+                         >
+
+              </form>
+          </div></div>-->
+
+<form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Genre</th>
+                <th>Date Naissance</th>
+                <th>Lieu</th>
+                <th>image</th>
+
+              
+            </tr>
+        </thead>
+        <tbody>
+        {% for st in enss %}
+            <tr>
+                <td>{{ st.id }}</td>
+                <td>{{ st.nom }}</td>
+                <td>{{ st.prenom }}</td>
+                <td>{{ st.genre }}</td>
+                <td>{{ st.date|date('d-m-Y') }}</td>
+                <td>{{ st.lieu }}</td>
+                <td> <img width="100" height="100"  src="{{ asset('images/'~st.path)}}" alt="" /></td>
+                <td><a class="btn btn-success" href="{{ path('edit_enseignant', { 'id': st.id }) }}"><i class="glyphicon glyphicon-plus-sign"></i>Modifier</a></td>
+                <td><a class="btn btn-danger" href="{{ path('remove_enseignant', { 'id': st.id }) }}"><i class="glyphicon glyphicon-trash"></i> Supprimer</a></td>
+</tr>
+{% else %}
+<tr><td>Aucun Enseignnat n''a été trouvé.</td></tr>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+         <div class="navigation">
+    {{ knp_pagination_render(enss) }}
+                </div>
+        <ul>
+        <li>
+            <a href="{{ path('new_enseignant') }}">
+                Add Enseignant
+            </a>
+        </li>
+    </ul>
+  
+</form>
+    {% endblock %}
+
+
+
+

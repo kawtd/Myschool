@@ -1,0 +1,42 @@
+{% extends "FOSUserBundle::layout.html.twig" %}
+
+{% block fos_user_content %}
+    {% block stylesheets %}
+                   <link rel="stylesheet" href="{{ asset('bundles/css/bootstrap.css') }}">
+                           <script src="{{ asset('bundles/js/jquery.min.js') }}"></script>
+                           <script src="{{ asset('bundles/js/bootstrap.js') }}"></script>
+                {% endblock %}
+
+   <div class="container d" >
+
+
+        <h2 class="form-signin-heading ">Connecter</h2>
+<form action="{{ path("fos_user_security_check") }}" method="post">
+    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+
+    <label  for="username">{{ 'security.login.username'|trans({}, 'FOSUserBundle') }}</label>
+    <input type="text" class="col-md-3 form-control" id="username" name="_username" value="{{ last_username }}" required="required" /><br>
+
+    <label for="password">{{ 'security.login.password'|trans({}, 'FOSUserBundle') }}</label>
+    <input type="password" class="col-md-6 form-control" id="password" name="_password" required="required" /><br><br>  
+    <div class="col-md-8"></div>
+    <input type="checkbox" class="" id="remember_me" name="_remember_me" value="on" />
+    <label for="remember_me">{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</label><br>
+       {% if error %}
+                  <div class="alert alert-danger">
+   {{ error|trans({}, 'FOSUserBundle') }}
+</div>
+        
+        
+{% endif %}
+    <input type="submit" class="btn btn-primary "id="_submit" name="_submit" value="{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}" /><br>
+    
+</form>
+     </div>
+      <style>
+      .d{
+          width: 400px;
+          height: 500px;
+      }
+  </style>
+{% endblock fos_user_content %}

@@ -1,0 +1,60 @@
+{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+
+
+{% block ar %}
+
+    <form class ="navbar-form navbar-left" style="margin-left: 900px;" method ="get" action ="{{ path('rechEnseignant')}}">
+        <input type text class ="form-control" placeholder = "Search ...." name ="m">
+
+    </form>
+
+{% endblock %}
+
+{% block menu %}
+    <br><br>
+    <h1>Student List</h1>
+    
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Genre</th>
+                <th>Date Naissance</th>
+                <th>Lieu</th>
+                <th>Image</th>
+              
+            </tr>
+        </thead>
+        <tbody>
+        {% for st in studs %}
+            <tr>
+                <td>{{ st.id }}</td>
+                <td>{{ st.nom }}</td>
+                <td>{{ st.prenom }}</td>
+                <td>{{ st.genre }}</td>
+                <td>{{ st.date|date('d-m-Y') }}</td>
+                <td>{{ st.lieu }}</td>
+                <td > <img  width="100" height="100" src="{{ asset('images/'~st.path)}}" alt="" /></td>
+                <td><a class="btn btn-success" href="{{ path('edit_Student', { 'id': st.id }) }}"><i class="glyphicon glyphicon-plus-sign"></i> Modifier</a></td>
+                <td><a class="btn btn-danger" href="{{ path('remove_Student', { 'id': st.id }) }}"><i class="glyphicon glyphicon-trash"></i> Supprimer</a></td>
+              
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+                <div class="navigation">
+    {{ knp_pagination_render(studs) }}
+                </div>
+        <ul>
+        <li>
+            <a href="{{ path('student_new') }}">
+                Add Student
+            </a>
+        </li>
+    </ul>
+    {% endblock %}
+
+
