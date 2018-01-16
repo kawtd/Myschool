@@ -1,0 +1,24 @@
+{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+
+{% block menu %}
+    <h1 align ="center">modifer Classe</h1><hr>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    {{ form_start(f) }}
+    {{ form_widget(f) }}
+    <input Class ="btn btn-primary" type="submit" value="Valider" />
+    {{ form_end(f) }}
+
+    <ul>
+        <li>
+            <a href="{{ path('classe_list') }}">
+                Liste Classe
+            </a>
+        </li>
+    </ul>
+
+
+
+{% endblock %}

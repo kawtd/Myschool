@@ -476,9 +476,17 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
 
         if (0 === strpos($pathinfo, '/re')) {
-            // remove_Student
-            if (0 === strpos($pathinfo, '/remStudent') && preg_match('#^/remStudent/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'remove_Student')), array (  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::removeStudentAction',));
+            if (0 === strpos($pathinfo, '/rem')) {
+                // remove_Student
+                if (0 === strpos($pathinfo, '/remStudent') && preg_match('#^/remStudent/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'remove_Student')), array (  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::removeStudentAction',));
+                }
+
+                // remove_Classe
+                if (0 === strpos($pathinfo, '/remClasse') && preg_match('#^/remClasse/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'remove_Classe')), array (  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::removeClassAction',));
+                }
+
             }
 
             // rechStudent

@@ -55,6 +55,8 @@ class StudentController extends Controller
         ));
     }
 
+
+
     /**
      * @Route("/editClass/{id}",name = "edit_Class")
      * @Route("/addclasse",name = "new_class")
@@ -65,7 +67,7 @@ class StudentController extends Controller
         if (isset($id))
         {
             // modification d'un acteur existant : on recherche ses données
-            $Classe = $em->find('MyschoolBundle:Student', $id);
+            $Classe = $em->find('MyschoolBundle:Classe', $id);
             if (!$Classe)
             {
                 $message='Aucun Enseignant trouvé';
@@ -93,7 +95,13 @@ class StudentController extends Controller
                 $message='Enseignant ajouté avec succès !';
             }
         }
+        return $this->render('MyschoolBundle:Student:editClasse.html.twig', array(
+            'f' => $form->createView(),
+            'message' => $message
+        ));
     }
+
+
 
     /**
      * @Route("/addStudent",name ="student_new")
@@ -214,6 +222,24 @@ $Student = $em->find('MyschoolBundle:Student', $id);
  $em->remove($Student);
  $em->flush();
  return new RedirectResponse($this->container->get('router')->generate('student_list'));
+    }
+
+    /**
+     * @Route("/remClasse/{id}",name ="remove_Classe")
+     */
+    public function removeClassAction($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $Classe = $em->find('MyschoolBundle:Classe', $id);
+
+        if (!$Classe)
+        {
+            throw new NotFoundHttpException("Classe non trouvé");
+        }
+
+        $em->remove($Classe);
+        $em->flush();
+        return new RedirectResponse($this->container->get('router')->generate('classe_list'));
     }
     
     /**

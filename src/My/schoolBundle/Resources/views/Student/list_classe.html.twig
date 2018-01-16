@@ -3,7 +3,7 @@
 {% block menu %}
     <h1>List Classe</h1>
 
-    <table class="records_list">
+    <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
@@ -17,6 +17,7 @@
                 <td>{{ cl.id }}</td>
                 <td>{{ cl.libelle }}</td>
                 <td><a class="btn btn-success" href="{{ path('edit_Class', { 'id': cl.id }) }}"><i class="glyphicon glyphicon-plus-sign"></i> Modifier</a></td>
+                <td><a class="btn btn-danger" href="{{ path('remove_Classe', { 'id': cl.id }) }}"><i class="glyphicon glyphicon-trash"></i> Supprimer</a></td>
             </tr>
         {% endfor %}
         </tbody>

@@ -21,25 +21,25 @@ class __TwigTemplate_2d21a96b56b7a2836ced593a5331996f66e1ea979820c8afcb20b8877f3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d7776dd43db07c95c4c8d44e636cbf0d810599cfee2159c8dfbb98c9bb6d2df4 = $this->env->getExtension("native_profiler");
-        $__internal_d7776dd43db07c95c4c8d44e636cbf0d810599cfee2159c8dfbb98c9bb6d2df4->enter($__internal_d7776dd43db07c95c4c8d44e636cbf0d810599cfee2159c8dfbb98c9bb6d2df4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyschoolBundle:Student:list_classe.html.twig"));
+        $__internal_a38676cebcae7876f0af9a3356660fc35d32fa78d192cd9067b87a889465f159 = $this->env->getExtension("native_profiler");
+        $__internal_a38676cebcae7876f0af9a3356660fc35d32fa78d192cd9067b87a889465f159->enter($__internal_a38676cebcae7876f0af9a3356660fc35d32fa78d192cd9067b87a889465f159_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyschoolBundle:Student:list_classe.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_d7776dd43db07c95c4c8d44e636cbf0d810599cfee2159c8dfbb98c9bb6d2df4->leave($__internal_d7776dd43db07c95c4c8d44e636cbf0d810599cfee2159c8dfbb98c9bb6d2df4_prof);
+        $__internal_a38676cebcae7876f0af9a3356660fc35d32fa78d192cd9067b87a889465f159->leave($__internal_a38676cebcae7876f0af9a3356660fc35d32fa78d192cd9067b87a889465f159_prof);
 
     }
 
     // line 3
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_7fecb3c51d4ff161a8a21fe60097f82b46acfa99656aa0ea1c8f6a5f7ca27f43 = $this->env->getExtension("native_profiler");
-        $__internal_7fecb3c51d4ff161a8a21fe60097f82b46acfa99656aa0ea1c8f6a5f7ca27f43->enter($__internal_7fecb3c51d4ff161a8a21fe60097f82b46acfa99656aa0ea1c8f6a5f7ca27f43_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_75fc1de91add7f33b73637b624a036650d5c7b5c431bf114504676f4825a9246 = $this->env->getExtension("native_profiler");
+        $__internal_75fc1de91add7f33b73637b624a036650d5c7b5c431bf114504676f4825a9246->enter($__internal_75fc1de91add7f33b73637b624a036650d5c7b5c431bf114504676f4825a9246_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
         // line 4
         echo "    <h1>List Classe</h1>
 
-    <table class=\"records_list\">
+    <table class=\"table\">
         <thead>
             <tr>
                 <th>Id</th>
@@ -67,20 +67,24 @@ class __TwigTemplate_2d21a96b56b7a2836ced593a5331996f66e1ea979820c8afcb20b8877f3
             // line 19
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("edit_Class", array("id" => $this->getAttribute($context["cl"], "id", array()))), "html", null, true);
             echo "\"><i class=\"glyphicon glyphicon-plus-sign\"></i> Modifier</a></td>
+                <td><a class=\"btn btn-danger\" href=\"";
+            // line 20
+            echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("remove_Classe", array("id" => $this->getAttribute($context["cl"], "id", array()))), "html", null, true);
+            echo "\"><i class=\"glyphicon glyphicon-trash\"></i> Supprimer</a></td>
             </tr>
         ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['cl'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 22
+        // line 23
         echo "        </tbody>
     </table>
 
         <ul>
         <li>
             <a href=\"";
-        // line 27
+        // line 28
         echo $this->env->getExtension('routing')->getPath("classe_new");
         echo "\">
                 Ajout Classe
@@ -89,7 +93,7 @@ class __TwigTemplate_2d21a96b56b7a2836ced593a5331996f66e1ea979820c8afcb20b8877f3
     </ul>
     ";
         
-        $__internal_7fecb3c51d4ff161a8a21fe60097f82b46acfa99656aa0ea1c8f6a5f7ca27f43->leave($__internal_7fecb3c51d4ff161a8a21fe60097f82b46acfa99656aa0ea1c8f6a5f7ca27f43_prof);
+        $__internal_75fc1de91add7f33b73637b624a036650d5c7b5c431bf114504676f4825a9246->leave($__internal_75fc1de91add7f33b73637b624a036650d5c7b5c431bf114504676f4825a9246_prof);
 
     }
 
@@ -105,7 +109,7 @@ class __TwigTemplate_2d21a96b56b7a2836ced593a5331996f66e1ea979820c8afcb20b8877f3
 
     public function getDebugInfo()
     {
-        return array (  84 => 27,  77 => 22,  68 => 19,  64 => 18,  60 => 17,  57 => 16,  53 => 15,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  88 => 28,  81 => 23,  72 => 20,  68 => 19,  64 => 18,  60 => 17,  57 => 16,  53 => 15,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
 /* {% extends "MyschoolBundle:Default:affichage.html.twig" %}*/
@@ -113,7 +117,7 @@ class __TwigTemplate_2d21a96b56b7a2836ced593a5331996f66e1ea979820c8afcb20b8877f3
 /* {% block menu %}*/
 /*     <h1>List Classe</h1>*/
 /* */
-/*     <table class="records_list">*/
+/*     <table class="table">*/
 /*         <thead>*/
 /*             <tr>*/
 /*                 <th>Id</th>*/
@@ -127,6 +131,7 @@ class __TwigTemplate_2d21a96b56b7a2836ced593a5331996f66e1ea979820c8afcb20b8877f3
 /*                 <td>{{ cl.id }}</td>*/
 /*                 <td>{{ cl.libelle }}</td>*/
 /*                 <td><a class="btn btn-success" href="{{ path('edit_Class', { 'id': cl.id }) }}"><i class="glyphicon glyphicon-plus-sign"></i> Modifier</a></td>*/
+/*                 <td><a class="btn btn-danger" href="{{ path('remove_Classe', { 'id': cl.id }) }}"><i class="glyphicon glyphicon-trash"></i> Supprimer</a></td>*/
 /*             </tr>*/
 /*         {% endfor %}*/
 /*         </tbody>*/

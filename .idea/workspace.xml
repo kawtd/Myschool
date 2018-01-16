@@ -4,7 +4,27 @@
     <bookmark url="file://$PROJECT_DIR$/app/Resources/views/note/index.html.twig" description="{% extends 'base.html.twig' %}&#10;&#10;{% block body %}" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff43fefe-5f84-4548-84b7-6330b18c6530" name="Default" comment="version 0" />
+    <list default="true" id="ff43fefe-5f84-4548-84b7-6330b18c6530" name="Default" comment="version 0">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/stu.html.twig" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/08/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722365646974636c617373416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/08/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722365646974636c617373416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c657223616464436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c657223616464436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236564697453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236564697453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/4c/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572237265636853747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/4c/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572237265636853747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/b9/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722372656d6f766553747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/b9/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722372656d6f766553747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/d2/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c69737453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/d2/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c69737453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722361646453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722361646453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ec/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c697374436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ec/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c697374436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/5900f75421bc91ea5f908e8b7d6c8f9c7989b3ecb1ecbe3c0a74f9e2c4ccb8b5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/5900f75421bc91ea5f908e8b7d6c8f9c7989b3ecb1ecbe3c0a74f9e2c4ccb8b5.php" />
+      <change beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editStudent.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editStudent.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,71 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addenseignant.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/addenseignant.html.twig">
+      <file leaf-file-name="stu.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/stu.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ens.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="95" lean-forward="false" selection-start-line="64" selection-start-column="95" selection-end-line="64" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_classe.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_classe.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClasseType.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chekType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/chekType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -159,7 +119,6 @@
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_student.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/matiere/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editStudent.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/editenseignant.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Specialite/add_specialite.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Specialite/list_specialite.html.twig" />
@@ -185,9 +144,12 @@
         <option value="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Form/StudentType.php" />
-        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editClasse.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" />
         <option value="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/stu.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editStudent.html.twig" />
       </list>
     </option>
   </component>
@@ -356,6 +318,16 @@
               <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Student" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -420,12 +392,12 @@
       <workItem from="1516031479769" duration="320000" />
       <workItem from="1516034050867" duration="576000" />
       <workItem from="1516094896430" duration="5823000" />
-      <workItem from="1516101801817" duration="316000" />
+      <workItem from="1516101801817" duration="3535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66650000" />
+    <option name="totallyTimeSpent" value="69869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
@@ -433,7 +405,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.264232" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -470,34 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/alert.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/SpecialiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/js/google_map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/color/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-867">
@@ -663,6 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/addenseignant.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/note/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -718,17 +655,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/noteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1479">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,6 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="107" column="43" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,14 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="154" lean-forward="false" selection-start-line="25" selection-start-column="154" selection-end-line="25" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="95" lean-forward="false" selection-start-line="64" selection-start-column="95" selection-end-line="64" selection-end-column="95" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,44 +713,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_student.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/chekType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#80#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#12#54#0#Twig" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php">
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editClasse.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -834,7 +740,89 @@
     <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="74" lean-forward="false" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Entity/Classe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/chekType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-981">
+          <caret line="63" column="105" lean-forward="false" selection-start-line="63" selection-start-column="105" selection-end-line="63" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_student.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/addenseignant.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#12#54#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editStudent.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/stu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="28" lean-forward="false" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
           <folding />
         </state>
       </provider>
