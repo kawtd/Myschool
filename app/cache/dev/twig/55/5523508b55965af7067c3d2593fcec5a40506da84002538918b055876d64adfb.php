@@ -8,74 +8,49 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("::base.html.twig", "MyschoolBundle:Enseignant:editenseignant.html.twig", 1);
+        $this->parent = $this->loadTemplate("MyschoolBundle:Default:affichage.html.twig", "MyschoolBundle:Enseignant:editenseignant.html.twig", 1);
         $this->blocks = array(
-            'stylesheets' => array($this, 'block_stylesheets'),
-            'body' => array($this, 'block_body'),
+            'menu' => array($this, 'block_menu'),
         );
     }
 
     protected function doGetParent(array $context)
     {
-        return "::base.html.twig";
+        return "MyschoolBundle:Default:affichage.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_82bef5f2c33dd0c8ff53493c5d39b83b08108725ff892225c9de5425825262a0 = $this->env->getExtension("native_profiler");
-        $__internal_82bef5f2c33dd0c8ff53493c5d39b83b08108725ff892225c9de5425825262a0->enter($__internal_82bef5f2c33dd0c8ff53493c5d39b83b08108725ff892225c9de5425825262a0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyschoolBundle:Enseignant:editenseignant.html.twig"));
+        $__internal_ff4ac3a12a3a26d7fa315c327f33a2bb74860c3c34b5de832fdbcfa9cc9ac014 = $this->env->getExtension("native_profiler");
+        $__internal_ff4ac3a12a3a26d7fa315c327f33a2bb74860c3c34b5de832fdbcfa9cc9ac014->enter($__internal_ff4ac3a12a3a26d7fa315c327f33a2bb74860c3c34b5de832fdbcfa9cc9ac014_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyschoolBundle:Enseignant:editenseignant.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_82bef5f2c33dd0c8ff53493c5d39b83b08108725ff892225c9de5425825262a0->leave($__internal_82bef5f2c33dd0c8ff53493c5d39b83b08108725ff892225c9de5425825262a0_prof);
+        $__internal_ff4ac3a12a3a26d7fa315c327f33a2bb74860c3c34b5de832fdbcfa9cc9ac014->leave($__internal_ff4ac3a12a3a26d7fa315c327f33a2bb74860c3c34b5de832fdbcfa9cc9ac014_prof);
 
     }
 
-    // line 2
-    public function block_stylesheets($context, array $blocks = array())
+    // line 3
+    public function block_menu($context, array $blocks = array())
     {
-        $__internal_3b7cc1ae3fb6431c5ff18a04e1d7cc9c4dd5a6f3c29ffa1d60ce8e85ef4a6767 = $this->env->getExtension("native_profiler");
-        $__internal_3b7cc1ae3fb6431c5ff18a04e1d7cc9c4dd5a6f3c29ffa1d60ce8e85ef4a6767->enter($__internal_3b7cc1ae3fb6431c5ff18a04e1d7cc9c4dd5a6f3c29ffa1d60ce8e85ef4a6767_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_3165f2d8a8166445f9c90a553da67bc438fe5b88668581c56a391fbc5e663777 = $this->env->getExtension("native_profiler");
+        $__internal_3165f2d8a8166445f9c90a553da67bc438fe5b88668581c56a391fbc5e663777->enter($__internal_3165f2d8a8166445f9c90a553da67bc438fe5b88668581c56a391fbc5e663777_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
-        // line 3
-        echo "                   <link rel=\"stylesheet\" href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/css/bootstrap.css"), "html", null, true);
-        echo "\">
-                           <script src=\"";
         // line 4
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/js/jquery.min.js"), "html", null, true);
-        echo "\"></script>
-                           <script src=\"";
-        // line 5
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/js/bootstrap.js"), "html", null, true);
-        echo "\"></script>
-                ";
-        
-        $__internal_3b7cc1ae3fb6431c5ff18a04e1d7cc9c4dd5a6f3c29ffa1d60ce8e85ef4a6767->leave($__internal_3b7cc1ae3fb6431c5ff18a04e1d7cc9c4dd5a6f3c29ffa1d60ce8e85ef4a6767_prof);
-
-    }
-
-    // line 7
-    public function block_body($context, array $blocks = array())
-    {
-        $__internal_9d779a8a100b52ad26c9d30e904a257b4893b6564de962c712e82e3039e9fe4f = $this->env->getExtension("native_profiler");
-        $__internal_9d779a8a100b52ad26c9d30e904a257b4893b6564de962c712e82e3039e9fe4f->enter($__internal_9d779a8a100b52ad26c9d30e904a257b4893b6564de962c712e82e3039e9fe4f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
-
-        // line 8
         echo "<h1>Welcome to the Enseignant:addEnseignant page</h1>
 
 
 
 ";
-        // line 12
+        // line 8
         if ((isset($context["message"]) ? $context["message"] : $this->getContext($context, "message"))) {
-            // line 13
+            // line 9
             echo "<p>";
             echo twig_escape_filter($this->env, (isset($context["message"]) ? $context["message"] : $this->getContext($context, "message")), "html", null, true);
             echo "</p>
 ";
         }
-        // line 15
+        // line 11
         echo "<form action=\"\" method=\"post\" ";
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), 'enctype');
         echo " >
@@ -89,11 +64,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
 <div class =\"form-group\">
     <div class =\"col-sm-10\">
          <label>";
-        // line 25
+        // line 21
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "nom", array()), 'label');
         echo "</label>
     ";
-        // line 26
+        // line 22
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "nom", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -102,11 +77,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
     
         <div class =\"col-sm-10\">
              <label>";
-        // line 32
+        // line 28
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "prenom", array()), 'label');
         echo "</label>
  ";
-        // line 33
+        // line 29
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "prenom", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "   
    </div>
@@ -115,11 +90,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
     
     <div class =\"col-sm-10\"> 
          <label>";
-        // line 39
+        // line 35
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "adresse", array()), 'label');
         echo "</label>
    ";
-        // line 40
+        // line 36
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "adresse", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -128,11 +103,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
       
       <div class =\"col-sm-10\"> 
           <label>";
-        // line 46
+        // line 42
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "genre", array()), 'label');
         echo "</label>
    ";
-        // line 47
+        // line 43
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "genre", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -141,11 +116,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
      
          <div class =\"col-sm-10\">
              <label>";
-        // line 53
+        // line 49
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "Specialite", array()), 'label');
         echo "</label>
    ";
-        // line 54
+        // line 50
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "Specialite", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>  
@@ -154,11 +129,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
    
         <div class =\"col-sm-10\">
              <label>";
-        // line 60
+        // line 56
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "date", array()), 'label');
         echo "</label>
    ";
-        // line 61
+        // line 57
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "date", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -167,11 +142,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
  
         <div class =\"col-sm-10\">
                <label>";
-        // line 67
+        // line 63
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "lieu", array()), 'label');
         echo "</label>
    ";
-        // line 68
+        // line 64
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "lieu", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -180,11 +155,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
 
        <div class =\"col-sm-10\">
                 <label>";
-        // line 74
+        // line 70
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "cin", array()), 'label');
         echo "</label>
    ";
-        // line 75
+        // line 71
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "cin", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -193,11 +168,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
        <div class =\"col-sm-10\"> 
         
    <label>";
-        // line 81
+        // line 77
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "datecin", array()), 'label');
         echo "</label>
    ";
-        // line 82
+        // line 78
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "datecin", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -206,11 +181,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
 
        <div class =\"col-sm-10\">
                 <label>";
-        // line 88
+        // line 84
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "tel", array()), 'label');
         echo "</label>
    ";
-        // line 89
+        // line 85
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "tel", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -219,11 +194,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
     
        <div class =\"col-sm-10\">
             <label>";
-        // line 95
+        // line 91
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "email", array()), 'label');
         echo "</label>
    ";
-        // line 96
+        // line 92
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "email", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -232,11 +207,11 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
          
            <div class =\"col-sm-10\">
                <label>";
-        // line 102
+        // line 98
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "obs", array()), 'label');
         echo "</label>
    ";
-        // line 103
+        // line 99
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "obs", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -247,7 +222,7 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
           <div class =\"col-sm-10\">
            <label>Image</label>
    ";
-        // line 111
+        // line 107
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), "file", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
     </div>
@@ -262,20 +237,20 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
  <div class =\"form-group\">
   <div class =\"col-sm-10\">
  <p><a href=\"";
-        // line 123
+        // line 119
         echo $this->env->getExtension('routing')->getPath("list_enseignant");
         echo " \">Retour à la liste des Enseignants</a></p>
   </div>         
 </div>
 </div>
      ";
-        // line 127
+        // line 123
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["f"]) ? $context["f"] : $this->getContext($context, "f")), 'widget');
         echo "
 </form>
 ";
         
-        $__internal_9d779a8a100b52ad26c9d30e904a257b4893b6564de962c712e82e3039e9fe4f->leave($__internal_9d779a8a100b52ad26c9d30e904a257b4893b6564de962c712e82e3039e9fe4f_prof);
+        $__internal_3165f2d8a8166445f9c90a553da67bc438fe5b88668581c56a391fbc5e663777->leave($__internal_3165f2d8a8166445f9c90a553da67bc438fe5b88668581c56a391fbc5e663777_prof);
 
     }
 
@@ -291,16 +266,12 @@ class __TwigTemplate_a3cf5f6fd230efb9234df74b8d18b60bf9b449a2e6863a0fe6ad41e6946
 
     public function getDebugInfo()
     {
-        return array (  273 => 127,  266 => 123,  251 => 111,  240 => 103,  236 => 102,  227 => 96,  223 => 95,  214 => 89,  210 => 88,  201 => 82,  197 => 81,  188 => 75,  184 => 74,  175 => 68,  171 => 67,  162 => 61,  158 => 60,  149 => 54,  145 => 53,  136 => 47,  132 => 46,  123 => 40,  119 => 39,  110 => 33,  106 => 32,  97 => 26,  93 => 25,  79 => 15,  73 => 13,  71 => 12,  65 => 8,  59 => 7,  50 => 5,  46 => 4,  41 => 3,  35 => 2,  11 => 1,);
+        return array (  248 => 123,  241 => 119,  226 => 107,  215 => 99,  211 => 98,  202 => 92,  198 => 91,  189 => 85,  185 => 84,  176 => 78,  172 => 77,  163 => 71,  159 => 70,  150 => 64,  146 => 63,  137 => 57,  133 => 56,  124 => 50,  120 => 49,  111 => 43,  107 => 42,  98 => 36,  94 => 35,  85 => 29,  81 => 28,  72 => 22,  68 => 21,  54 => 11,  48 => 9,  46 => 8,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
-/* {% extends "::base.html.twig" %}*/
-/* {% block stylesheets %}*/
-/*                    <link rel="stylesheet" href="{{ asset('bundles/css/bootstrap.css') }}">*/
-/*                            <script src="{{ asset('bundles/js/jquery.min.js') }}"></script>*/
-/*                            <script src="{{ asset('bundles/js/bootstrap.js') }}"></script>*/
-/*                 {% endblock %}*/
-/* {% block body %}*/
+/* {% extends "MyschoolBundle:Default:affichage.html.twig" %}*/
+/* */
+/* {% block menu %}*/
 /* <h1>Welcome to the Enseignant:addEnseignant page</h1>*/
 /* */
 /* */

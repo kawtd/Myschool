@@ -8,7 +8,7 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("MyschoolBundle:Default:affichage.html.twig", "note/index.html.twig", 1);
+        $this->parent = $this->loadTemplate("MyschoolBundle:Default:ens.html.twig", "note/index.html.twig", 1);
         $this->blocks = array(
             'menu' => array($this, 'block_menu'),
         );
@@ -16,25 +16,25 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
 
     protected function doGetParent(array $context)
     {
-        return "MyschoolBundle:Default:affichage.html.twig";
+        return "MyschoolBundle:Default:ens.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ab6f34d827f90e8f479f77a509553cbdbeb7a8b8a46c558df07c7bf820baedf8 = $this->env->getExtension("native_profiler");
-        $__internal_ab6f34d827f90e8f479f77a509553cbdbeb7a8b8a46c558df07c7bf820baedf8->enter($__internal_ab6f34d827f90e8f479f77a509553cbdbeb7a8b8a46c558df07c7bf820baedf8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "note/index.html.twig"));
+        $__internal_f06f1cf413b964c9e7bc459d7c94446acc9a5dd9bc97070153123213c5f22fdb = $this->env->getExtension("native_profiler");
+        $__internal_f06f1cf413b964c9e7bc459d7c94446acc9a5dd9bc97070153123213c5f22fdb->enter($__internal_f06f1cf413b964c9e7bc459d7c94446acc9a5dd9bc97070153123213c5f22fdb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "note/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_ab6f34d827f90e8f479f77a509553cbdbeb7a8b8a46c558df07c7bf820baedf8->leave($__internal_ab6f34d827f90e8f479f77a509553cbdbeb7a8b8a46c558df07c7bf820baedf8_prof);
+        $__internal_f06f1cf413b964c9e7bc459d7c94446acc9a5dd9bc97070153123213c5f22fdb->leave($__internal_f06f1cf413b964c9e7bc459d7c94446acc9a5dd9bc97070153123213c5f22fdb_prof);
 
     }
 
     // line 3
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_e41bec55254c05c1a9aa70f4f03601507b70931688bf8df85b149f58270ed2ef = $this->env->getExtension("native_profiler");
-        $__internal_e41bec55254c05c1a9aa70f4f03601507b70931688bf8df85b149f58270ed2ef->enter($__internal_e41bec55254c05c1a9aa70f4f03601507b70931688bf8df85b149f58270ed2ef_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_264d3d8466f6177c8a77a49f825542c3d18eed9f10d3da6ddb413cfc5978de5f = $this->env->getExtension("native_profiler");
+        $__internal_264d3d8466f6177c8a77a49f825542c3d18eed9f10d3da6ddb413cfc5978de5f->enter($__internal_264d3d8466f6177c8a77a49f825542c3d18eed9f10d3da6ddb413cfc5978de5f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
         // line 4
         echo "    <h1>note list</h1>
@@ -91,7 +91,7 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
             echo twig_escape_filter($this->env, $this->getAttribute($context["note"], "moyenne", array()), "html", null, true);
             echo "</td>
                 <td>
-                    <a class=\"btn btn-primary\" href=\"";
+                   <a class=\"btn btn-primary\" href=\"";
             // line 30
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("note_show", array("id" => $this->getAttribute($context["note"], "id", array()))), "html", null, true);
             echo "\"><i class=\"glyphicon glyphicon-eye-open\"></i>detail</a>
@@ -124,9 +124,10 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
         echo "\">Create a new entry</a>
         </li>
     </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ";
         
-        $__internal_e41bec55254c05c1a9aa70f4f03601507b70931688bf8df85b149f58270ed2ef->leave($__internal_e41bec55254c05c1a9aa70f4f03601507b70931688bf8df85b149f58270ed2ef_prof);
+        $__internal_264d3d8466f6177c8a77a49f825542c3d18eed9f10d3da6ddb413cfc5978de5f->leave($__internal_264d3d8466f6177c8a77a49f825542c3d18eed9f10d3da6ddb413cfc5978de5f_prof);
 
     }
 
@@ -145,7 +146,7 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
         return array (  123 => 43,  116 => 38,  106 => 34,  101 => 32,  96 => 30,  91 => 28,  87 => 27,  83 => 26,  79 => 25,  75 => 24,  71 => 23,  65 => 22,  62 => 21,  58 => 20,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
-/* {% extends "MyschoolBundle:Default:affichage.html.twig" %}*/
+/* {% extends "MyschoolBundle:Default:ens.html.twig" %}*/
 /* */
 /* {% block menu %}*/
 /*     <h1>note list</h1>*/
@@ -174,7 +175,7 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
 /*                 <td>{{ note.pourcentageExam }}</td>*/
 /*                 <td>{{ note.moyenne }}</td>*/
 /*                 <td>*/
-/*                     <a class="btn btn-primary" href="{{ path('note_show', { 'id': note.id }) }}"><i class="glyphicon glyphicon-eye-open"></i>detail</a>*/
+/*                    <a class="btn btn-primary" href="{{ path('note_show', { 'id': note.id }) }}"><i class="glyphicon glyphicon-eye-open"></i>detail</a>*/
 /*                         */
 /*                     <a class="btn btn-success" href="{{ path('note_edit', { 'id': note.id }) }}"><i class="glyphicon glyphicon-edit"></i>modifier</a> */
 /*                     */
@@ -190,5 +191,6 @@ class __TwigTemplate_e745b08440e9d388194292731c76d148b60a8b31217c0f924739e3c0fa2
 /*             <a href="{{ path('note_new') }}">Create a new entry</a>*/
 /*         </li>*/
 /*     </ul>*/
+/*     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>*/
 /* {% endblock %}*/
 /* */

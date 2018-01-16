@@ -13,6 +13,15 @@
                 <th>Libelle</th>
                 <td>{{ matiere.libelle }}</td>
             </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <a class="btn btn-success" href="{{ path('matiere_edit', { 'id': matiere.id }) }}"><i class="glyphicon glyphicon-edit"></i> modifier</a>
+                    {{ form_start(delete_form) }}
+                    <input class="btn btn-danger" type="submit" value="supprimer">
+                    {{ form_end(delete_form) }}
+                </td>
+            </tr>
         </tbody>
     </table>
 
@@ -20,13 +29,7 @@
         <li>
             <a href="{{ path('matiere_index') }}">Back to the list</a>
         </li>
-        <li>
-            <a href="{{ path('matiere_edit', { 'id': matiere.id }) }}">Edit</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
+
+
     </ul>
 {% endblock %}

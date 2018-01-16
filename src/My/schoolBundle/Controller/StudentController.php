@@ -7,10 +7,12 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\Request;
 use My\schoolBundle\Entity\Student;
 use My\schoolBundle\Form\StudentType;
+use My\schoolBundle\Form\ClasseType;
 use My\schoolBundle\Entity\Classe;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use My\schoolBundle\Entity\User;
 class StudentController extends Controller
 {
     /**
@@ -54,14 +56,56 @@ class StudentController extends Controller
     }
 
     /**
+     * @Route("/editClass/{id}",name = "edit_Class")
+     * @Route("/addclasse",name = "new_class")
+     */
+    public function editclassAction(Request $request, $id = null)
+    {        $message='';
+        $em = $this->getDoctrine()->getManager();
+        if (isset($id))
+        {
+            // modification d'un acteur existant : on recherche ses données
+            $Classe = $em->find('MyschoolBundle:Student', $id);
+            if (!$Classe)
+            {
+                $message='Aucun Enseignant trouvé';
+            }
+        }
+        else
+        {
+            // ajout d'un nouvel acteur
+            $Classe = new Classe();
+        }
+        $form = $this->container->get('form.factory')->create(new ClasseType(), $Classe);
+        $form ->handleRequest($request);
+        if ($form->isValid())
+        {
+            $em = $this->getDoctrine()->getManager();
+
+            $em->persist($Classe);
+            $em->flush();
+            if (isset($id))
+            {
+                $message='Enseignant modifié avec succès !';
+            }
+            else
+            {
+                $message='Enseignant ajouté avec succès !';
+            }
+        }
+    }
+
+    /**
      * @Route("/addStudent",name ="student_new")
      */
     public function addStudentAction(Request $request)
     {
         $message="";
         $Student = new Student();
+        $user=new User();
         $form = $this->container->get('form.factory')->create(new StudentType(),
         $Student);
+        $encoder = $this->container->get('security.encoder_factory')->getEncoder($user);
         $form ->handleRequest($request);
          if ($form->isValid())
         {
@@ -70,6 +114,22 @@ class StudentController extends Controller
             $em->persist($Student);
             $Student->upload();
             $em->flush();
+            $user->setUsername($Student->getNom());
+            $user->setEmail($Student->getEmail());
+            $user->addRole('ROLE_STUDENT');
+            $user->setEnabled(true);
+            $tokenGenerator = $this->container->get('fos_user.util.token_generator');
+            $password = substr($tokenGenerator->generateToken(), 0, 12);
+            $user->setPassword($encoder->encodePassword($password, $user->getSalt()));
+            $em->persist($user);
+            $em->flush();
+            $message1 = \Swift_Message::newInstance()
+                ->setSubject('valid')
+                ->setFrom('makbook2016@gmail.com')
+                ->setTo('bramliak@gmail.com')
+                ->setCharset('utf-8')
+                ->setBody($this->container->get('templating')->render('MyschoolBundle:Email:ensegniant.html.twig',array('mp'=>$password)),'text/html');
+            $this->get('mailer')->send($message1);
        
         }
         return $this->render('MyschoolBundle:Student:add_student.html.twig', array(

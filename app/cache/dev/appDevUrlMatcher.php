@@ -442,9 +442,22 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::listClasseAction',  '_route' => 'classe_list',);
         }
 
-        // student_new
-        if ($pathinfo === '/addStudent') {
-            return array (  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::addStudentAction',  '_route' => 'student_new',);
+        // edit_Class
+        if (0 === strpos($pathinfo, '/editClass') && preg_match('#^/editClass(?:/(?P<id>[^/]++))?$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'edit_Class')), array (  'id' => NULL,  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::editclassAction',));
+        }
+
+        if (0 === strpos($pathinfo, '/add')) {
+            // new_class
+            if ($pathinfo === '/addclasse') {
+                return array (  'id' => NULL,  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::editclassAction',  '_route' => 'new_class',);
+            }
+
+            // student_new
+            if ($pathinfo === '/addStudent') {
+                return array (  '_controller' => 'My\\schoolBundle\\Controller\\StudentController::addStudentAction',  '_route' => 'student_new',);
+            }
+
         }
 
         // student_list

@@ -21,20 +21,20 @@ class __TwigTemplate_3edbc11c65f0de9593772068eb45ecbeb8061abf0fab6e5d0ddadd83532
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f6dd8b74d9be51c2ea17fe528dfa18974a22ed66b5c602d8b14968fbcdae79cd = $this->env->getExtension("native_profiler");
-        $__internal_f6dd8b74d9be51c2ea17fe528dfa18974a22ed66b5c602d8b14968fbcdae79cd->enter($__internal_f6dd8b74d9be51c2ea17fe528dfa18974a22ed66b5c602d8b14968fbcdae79cd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "matiere/new.html.twig"));
+        $__internal_a0b68102cf134c2a0db9e52e6968993b57e2bb937d21fb22be0cc52290642739 = $this->env->getExtension("native_profiler");
+        $__internal_a0b68102cf134c2a0db9e52e6968993b57e2bb937d21fb22be0cc52290642739->enter($__internal_a0b68102cf134c2a0db9e52e6968993b57e2bb937d21fb22be0cc52290642739_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "matiere/new.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_f6dd8b74d9be51c2ea17fe528dfa18974a22ed66b5c602d8b14968fbcdae79cd->leave($__internal_f6dd8b74d9be51c2ea17fe528dfa18974a22ed66b5c602d8b14968fbcdae79cd_prof);
+        $__internal_a0b68102cf134c2a0db9e52e6968993b57e2bb937d21fb22be0cc52290642739->leave($__internal_a0b68102cf134c2a0db9e52e6968993b57e2bb937d21fb22be0cc52290642739_prof);
 
     }
 
     // line 3
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_e78c570001813b35ea67595edbee7fd660f7c3d85580354767f036481f010368 = $this->env->getExtension("native_profiler");
-        $__internal_e78c570001813b35ea67595edbee7fd660f7c3d85580354767f036481f010368->enter($__internal_e78c570001813b35ea67595edbee7fd660f7c3d85580354767f036481f010368_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_23da0d85167012d6c6bae443aef720e2d2881fb4a7b50f678474f4e7ea036ff1 = $this->env->getExtension("native_profiler");
+        $__internal_23da0d85167012d6c6bae443aef720e2d2881fb4a7b50f678474f4e7ea036ff1->enter($__internal_23da0d85167012d6c6bae443aef720e2d2881fb4a7b50f678474f4e7ea036ff1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
         // line 4
         echo "    <h1>Matiere creation</h1>
@@ -47,7 +47,7 @@ class __TwigTemplate_3edbc11c65f0de9593772068eb45ecbeb8061abf0fab6e5d0ddadd83532
         // line 7
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'widget');
         echo "
-        <input type=\"submit\" value=\"Create\" />
+        <input Class =\"btn btn-primary\" type=\"submit\" value=\"Valider\" />
     ";
         // line 9
         echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
@@ -63,7 +63,7 @@ class __TwigTemplate_3edbc11c65f0de9593772068eb45ecbeb8061abf0fab6e5d0ddadd83532
     </ul>
 ";
         
-        $__internal_e78c570001813b35ea67595edbee7fd660f7c3d85580354767f036481f010368->leave($__internal_e78c570001813b35ea67595edbee7fd660f7c3d85580354767f036481f010368_prof);
+        $__internal_23da0d85167012d6c6bae443aef720e2d2881fb4a7b50f678474f4e7ea036ff1->leave($__internal_23da0d85167012d6c6bae443aef720e2d2881fb4a7b50f678474f4e7ea036ff1_prof);
 
     }
 
@@ -89,7 +89,7 @@ class __TwigTemplate_3edbc11c65f0de9593772068eb45ecbeb8061abf0fab6e5d0ddadd83532
 /* */
 /*     {{ form_start(form) }}*/
 /*         {{ form_widget(form) }}*/
-/*         <input type="submit" value="Create" />*/
+/*         <input Class ="btn btn-primary" type="submit" value="Valider" />*/
 /*     {{ form_end(form) }}*/
 /* */
 /*     <ul>*/

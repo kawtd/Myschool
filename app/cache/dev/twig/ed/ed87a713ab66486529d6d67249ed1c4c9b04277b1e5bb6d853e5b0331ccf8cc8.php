@@ -21,25 +21,25 @@ class __TwigTemplate_aedea510935af78caa4a8973b562685139ca60e6edd2a05a1eaf6831d70
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8dc721aaaa13b07a9859f09842490000ccb48a6307151aafa6607f3d746043c1 = $this->env->getExtension("native_profiler");
-        $__internal_8dc721aaaa13b07a9859f09842490000ccb48a6307151aafa6607f3d746043c1->enter($__internal_8dc721aaaa13b07a9859f09842490000ccb48a6307151aafa6607f3d746043c1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "matiere/index.html.twig"));
+        $__internal_7fd66fd9013abed88f74ff200b21f3f2a4cfe87a6bb5d751f86abf317b349f7a = $this->env->getExtension("native_profiler");
+        $__internal_7fd66fd9013abed88f74ff200b21f3f2a4cfe87a6bb5d751f86abf317b349f7a->enter($__internal_7fd66fd9013abed88f74ff200b21f3f2a4cfe87a6bb5d751f86abf317b349f7a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "matiere/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_8dc721aaaa13b07a9859f09842490000ccb48a6307151aafa6607f3d746043c1->leave($__internal_8dc721aaaa13b07a9859f09842490000ccb48a6307151aafa6607f3d746043c1_prof);
+        $__internal_7fd66fd9013abed88f74ff200b21f3f2a4cfe87a6bb5d751f86abf317b349f7a->leave($__internal_7fd66fd9013abed88f74ff200b21f3f2a4cfe87a6bb5d751f86abf317b349f7a_prof);
 
     }
 
     // line 3
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_5c6d869939d7977dc0dd100b23f1baa4c8530c1a41f3113aa953b0426951c455 = $this->env->getExtension("native_profiler");
-        $__internal_5c6d869939d7977dc0dd100b23f1baa4c8530c1a41f3113aa953b0426951c455->enter($__internal_5c6d869939d7977dc0dd100b23f1baa4c8530c1a41f3113aa953b0426951c455_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_9ed92179ab66498e0f11d897426dfa40834d5c8e76825f7f7daf5a617f6acb83 = $this->env->getExtension("native_profiler");
+        $__internal_9ed92179ab66498e0f11d897426dfa40834d5c8e76825f7f7daf5a617f6acb83->enter($__internal_9ed92179ab66498e0f11d897426dfa40834d5c8e76825f7f7daf5a617f6acb83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
         // line 4
         echo "    <h1>Matiere list</h1>
 
-    <table>
+    <table class=\"table\">
         <thead>
             <tr>
                 <th>Id</th>
@@ -67,18 +67,18 @@ class __TwigTemplate_aedea510935af78caa4a8973b562685139ca60e6edd2a05a1eaf6831d70
             echo "</td>
                 <td>
                     <ul>
-                        <li>
-                            <a href=\"";
-            // line 22
-            echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("matiere_show", array("id" => $this->getAttribute($context["matiere"], "id", array()))), "html", null, true);
-            echo "\">show</a>
-                        </li>
-                        <li>
-                            <a href=\"";
-            // line 25
+
+
+
+                            <a class=\"btn btn-success\" href=\"";
+            // line 24
             echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("matiere_edit", array("id" => $this->getAttribute($context["matiere"], "id", array()))), "html", null, true);
-            echo "\">edit</a>
-                        </li>
+            echo "\"><i class=\"glyphicon glyphicon-edit\"></i> modifier</a>
+
+                            <a class=\"btn btn-danger\" href=\"";
+            // line 26
+            echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("matiere_delete", array("id" => $this->getAttribute($context["matiere"], "id", array()))), "html", null, true);
+            echo "\"><i class=\"glyphicon glyphicon-trash\"></i> supprimer</a>
                     </ul>
                 </td>
             </tr>
@@ -101,7 +101,7 @@ class __TwigTemplate_aedea510935af78caa4a8973b562685139ca60e6edd2a05a1eaf6831d70
     </ul>
 ";
         
-        $__internal_5c6d869939d7977dc0dd100b23f1baa4c8530c1a41f3113aa953b0426951c455->leave($__internal_5c6d869939d7977dc0dd100b23f1baa4c8530c1a41f3113aa953b0426951c455_prof);
+        $__internal_9ed92179ab66498e0f11d897426dfa40834d5c8e76825f7f7daf5a617f6acb83->leave($__internal_9ed92179ab66498e0f11d897426dfa40834d5c8e76825f7f7daf5a617f6acb83_prof);
 
     }
 
@@ -117,7 +117,7 @@ class __TwigTemplate_aedea510935af78caa4a8973b562685139ca60e6edd2a05a1eaf6831d70
 
     public function getDebugInfo()
     {
-        return array (  98 => 36,  91 => 31,  79 => 25,  73 => 22,  66 => 18,  60 => 17,  57 => 16,  53 => 15,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  98 => 36,  91 => 31,  80 => 26,  75 => 24,  66 => 18,  60 => 17,  57 => 16,  53 => 15,  40 => 4,  34 => 3,  11 => 1,);
     }
 }
 /* {% extends "MyschoolBundle:Default:affichage.html.twig" %}*/
@@ -125,7 +125,7 @@ class __TwigTemplate_aedea510935af78caa4a8973b562685139ca60e6edd2a05a1eaf6831d70
 /* {% block menu %}*/
 /*     <h1>Matiere list</h1>*/
 /* */
-/*     <table>*/
+/*     <table class="table">*/
 /*         <thead>*/
 /*             <tr>*/
 /*                 <th>Id</th>*/
@@ -140,12 +140,12 @@ class __TwigTemplate_aedea510935af78caa4a8973b562685139ca60e6edd2a05a1eaf6831d70
 /*                 <td>{{ matiere.libelle }}</td>*/
 /*                 <td>*/
 /*                     <ul>*/
-/*                         <li>*/
-/*                             <a href="{{ path('matiere_show', { 'id': matiere.id }) }}">show</a>*/
-/*                         </li>*/
-/*                         <li>*/
-/*                             <a href="{{ path('matiere_edit', { 'id': matiere.id }) }}">edit</a>*/
-/*                         </li>*/
+/* */
+/* */
+/* */
+/*                             <a class="btn btn-success" href="{{ path('matiere_edit', { 'id': matiere.id }) }}"><i class="glyphicon glyphicon-edit"></i> modifier</a>*/
+/* */
+/*                             <a class="btn btn-danger" href="{{ path('matiere_delete', { 'id': matiere.id }) }}"><i class="glyphicon glyphicon-trash"></i> supprimer</a>*/
 /*                     </ul>*/
 /*                 </td>*/
 /*             </tr>*/

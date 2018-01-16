@@ -1,20 +1,157 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8"/>
-    <title>
-        {% block title %}Welcome!{% endblock %}
-    </title>
-    {% block stylesheets %}
-    endblock %}
+{% extends "::base.html.twig" %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('bundles/css/bootstrap.css') }}">
+    <script src="{{ asset('bundles/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('bundles/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('bundles/js/jquery-1.10.2.js') }}"></script>
+    <script src="{{ asset('bundles/js/main.js') }}"></script>
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
-</head>
-<body>
-{% block body %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/nprogress/nprogress.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/iCheck/skins/flat/green.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/jqvmap/dist/jqvmap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/vendors/bootstrap-daterangepicker/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('bundles/admin/css/custom.min.css') }}">
 {% endblock %}
-{% block javascripts %}
-% endblock %}
-</body>
-</html>
+    {% block body %}
 
+
+
+
+
+
+        <body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+        <div class="col-md-3 left_col">
+            <div class="left_col scroll-view">
+                <div class="navbar nav_title" style="border: 0;">
+                    <span class="site_title"><i class="fa fa-paw"></i> <span>STS</span></span>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!-- menu profile quick info -->
+                <div class="profile clearfix">
+                    <div class="profile_pic">
+
+                    </div>
+                    <div class="profile_info">
+                        <span>Welcome,</span>
+                        <h2></h2>
+                    </div>
+                </div>
+                <!-- /menu profile quick info -->
+
+                <br />
+
+                <!-- sidebar menu -->
+                <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="menu_section">
+                        <h3>General</h3>
+                        <ul class="nav side-menu">
+
+
+
+                            <div class="dropdown">
+                                <a class="btn btn-primary dropdown-toggle"  data-toggle="dropdown" style="width: 222px; "><i class="fa fa-edit"></i> Note  <span class="fa fa-chevron-down"></span></a>
+                                <ul class="dropdown-menu" style="width: 222px;">
+                                    <li><a href="{{ path('note_index') }}">list note </a></li>
+                                    <li><a href="{{ path('note_new') }}">ajouter note </a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <a class="btn btn-primary dropdown-toggle"  data-toggle="dropdown" style="width: 222px; "><i class="fa fa-edit"></i> absonce  <span class="fa fa-chevron-down"></span></a>
+                                <ul class="dropdown-menu" style="width: 222px;">
+                                    <li><a href="{{ path('matiere_index') }}">list matiere </a></li>
+                                    <li><a href="{{ path('matiere_new') }}">ajouter matiere </a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- /sidebar menu -->
+
+
+                <!-- /menu footer buttons -->
+            </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+            <div class="nav_menu">
+                <nav>
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        {% block ar %}
+
+                        {% endblock %}
+                        <li class="">
+
+                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+
+                                <span class=" fa fa-angle-down"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+
+                                <li>
+                                    <a href="/Biblio/Parametre">
+
+                                        <span>parametre</span>
+                                    </a>
+                                </li>
+
+                                <li><a href={{ path('fos_user_security_logout')}}><i class="fa fa-sign-out pull-right"></i> deconnecter</a></li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /top navigation -->
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <!-- top tiles -->
+            <div class="row tile_count">
+                <div class="x_content">
+
+
+
+                    {% block menu %}
+
+                    {% endblock %}
+
+
+                </div>
+            </div>
+        </div>
+        <!-- page content -->
+
+
+
+        <script src="{{ asset('bundles/admin/css/vendors/jquery/dist/jquery.min.js') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('bundles/admin/js/custom.min.js"') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/fastclick/lib/fastclick.js') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/nprogress/nprogress.js') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/Chart.js/dist/Chart.min.js') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/gauge.js/dist/gauge.min.js') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js') }}"></script>
+        <script src="{{ asset('bundles/admin/css/vendors/skycons/skycons.js') }}"></script>
+
+
+
+    {% endblock %}

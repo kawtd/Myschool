@@ -40,7 +40,7 @@ class EnseignantController extends Controller
             $em->flush();
             $user->setUsername($enseignant->getNom());
             $user->setEmail($enseignant->getEmail());
-            $user->addRole("ROLE_action");
+            $user->addRole('ROLE_ENSEIGNANT');
             $user->setEnabled(true);
             $tokenGenerator = $this->container->get('fos_user.util.token_generator');
             $password = substr($tokenGenerator->generateToken(), 0, 12);

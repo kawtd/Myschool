@@ -24,20 +24,20 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d551b876635f41ee6f06cff067b1859155a0cb8517711f257c7dd07fe318147a = $this->env->getExtension("native_profiler");
-        $__internal_d551b876635f41ee6f06cff067b1859155a0cb8517711f257c7dd07fe318147a->enter($__internal_d551b876635f41ee6f06cff067b1859155a0cb8517711f257c7dd07fe318147a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyschoolBundle:Default:affichage.html.twig"));
+        $__internal_524929b81a8bfe345f8c96c76ec52f693516d6894a7eff02b91fc142b9e268f8 = $this->env->getExtension("native_profiler");
+        $__internal_524929b81a8bfe345f8c96c76ec52f693516d6894a7eff02b91fc142b9e268f8->enter($__internal_524929b81a8bfe345f8c96c76ec52f693516d6894a7eff02b91fc142b9e268f8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "MyschoolBundle:Default:affichage.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_d551b876635f41ee6f06cff067b1859155a0cb8517711f257c7dd07fe318147a->leave($__internal_d551b876635f41ee6f06cff067b1859155a0cb8517711f257c7dd07fe318147a_prof);
+        $__internal_524929b81a8bfe345f8c96c76ec52f693516d6894a7eff02b91fc142b9e268f8->leave($__internal_524929b81a8bfe345f8c96c76ec52f693516d6894a7eff02b91fc142b9e268f8_prof);
 
     }
 
     // line 2
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_020cdc1842ed0443ff11f18f71154fdee8dadfdb9777822bae2a367614852f9c = $this->env->getExtension("native_profiler");
-        $__internal_020cdc1842ed0443ff11f18f71154fdee8dadfdb9777822bae2a367614852f9c->enter($__internal_020cdc1842ed0443ff11f18f71154fdee8dadfdb9777822bae2a367614852f9c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_b3fa7a42c377ad99f95be1c5ad08413c2d1b1d6dfec255f6bdd8b2e502c520a5 = $this->env->getExtension("native_profiler");
+        $__internal_b3fa7a42c377ad99f95be1c5ad08413c2d1b1d6dfec255f6bdd8b2e502c520a5->enter($__internal_b3fa7a42c377ad99f95be1c5ad08413c2d1b1d6dfec255f6bdd8b2e502c520a5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 3
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -97,15 +97,15 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
         echo "\">
                 ";
         
-        $__internal_020cdc1842ed0443ff11f18f71154fdee8dadfdb9777822bae2a367614852f9c->leave($__internal_020cdc1842ed0443ff11f18f71154fdee8dadfdb9777822bae2a367614852f9c_prof);
+        $__internal_b3fa7a42c377ad99f95be1c5ad08413c2d1b1d6dfec255f6bdd8b2e502c520a5->leave($__internal_b3fa7a42c377ad99f95be1c5ad08413c2d1b1d6dfec255f6bdd8b2e502c520a5_prof);
 
     }
 
     // line 21
     public function block_body($context, array $blocks = array())
     {
-        $__internal_d82b7715d22340fcb87ca753cbbf2412f97a4c255a167f220377bc6664ddc125 = $this->env->getExtension("native_profiler");
-        $__internal_d82b7715d22340fcb87ca753cbbf2412f97a4c255a167f220377bc6664ddc125->enter($__internal_d82b7715d22340fcb87ca753cbbf2412f97a4c255a167f220377bc6664ddc125_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_243d65939ea3c35406bdb1b44cd271c3215d6117de336b1042facdf766b02892 = $this->env->getExtension("native_profiler");
+        $__internal_243d65939ea3c35406bdb1b44cd271c3215d6117de336b1042facdf766b02892->enter($__internal_243d65939ea3c35406bdb1b44cd271c3215d6117de336b1042facdf766b02892_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 22
         echo "
@@ -199,28 +199,16 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
         echo "\">ajouter Specialite </a></li>
                                     </ul>
                                 </div>
-                                <div class=\"dropdown\">
-                                    <a class=\"btn btn-primary dropdown-toggle\"  data-toggle=\"dropdown\" style=\"width: 222px; \"><i class=\"fa fa-edit\"></i> Note  <span class=\"fa fa-chevron-down\"></span></a>
-                                    <ul class=\"dropdown-menu\" style=\"width: 222px;\">
-                                        <li><a href=\"";
-        // line 92
-        echo $this->env->getExtension('routing')->getPath("note_index");
-        echo "\">list note </a></li>
-                                        <li><a href=\"";
-        // line 93
-        echo $this->env->getExtension('routing')->getPath("note_new");
-        echo "\">ajouter note </a></li>
-                                    </ul>
-                                </div>
+
                                 <div class=\"dropdown\">
                                     <a class=\"btn btn-primary dropdown-toggle\"  data-toggle=\"dropdown\" style=\"width: 222px; \"><i class=\"fa fa-edit\"></i> Matiere  <span class=\"fa fa-chevron-down\"></span></a>
                                     <ul class=\"dropdown-menu\" style=\"width: 222px;\">
                                         <li><a href=\"";
-        // line 99
+        // line 93
         echo $this->env->getExtension('routing')->getPath("matiere_index");
         echo "\">list matiere </a></li>
                                         <li><a href=\"";
-        // line 100
+        // line 94
         echo $this->env->getExtension('routing')->getPath("matiere_new");
         echo "\">ajouter matiere </a></li>
                                     </ul>
@@ -248,9 +236,9 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 
                         <ul class=\"nav navbar-nav navbar-right\">
                             ";
-        // line 125
+        // line 119
         $this->displayBlock('ar', $context, $blocks);
-        // line 128
+        // line 122
         echo "                            <li class=\"\">
 
                                 <a href=\"javascript:;\" class=\"user-profile dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">
@@ -267,7 +255,7 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
                                     </li>
 
                                     <li><a href=";
-        // line 143
+        // line 137
         echo $this->env->getExtension('routing')->getPath("fos_user_security_logout");
         echo "><i class=\"fa fa-sign-out pull-right\"></i> deconnecter</a></li>
                                 </ul>
@@ -288,9 +276,9 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 
 
                            ";
-        // line 161
+        // line 155
         $this->displayBlock('menu', $context, $blocks);
-        // line 164
+        // line 158
         echo "
 
                     </div>
@@ -301,39 +289,39 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 
 
     <script src=\"";
-        // line 173
+        // line 167
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/jquery/dist/jquery.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 174
+        // line 168
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/bootstrap/dist/js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 175
+        // line 169
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/js/custom.min.js\""), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 176
+        // line 170
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/fastclick/lib/fastclick.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 177
+        // line 171
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/nprogress/nprogress.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 178
+        // line 172
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/Chart.js/dist/Chart.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 179
+        // line 173
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/gauge.js/dist/gauge.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 180
+        // line 174
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 181
+        // line 175
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("bundles/admin/css/vendors/skycons/skycons.js"), "html", null, true);
         echo "\"></script>
 
@@ -341,35 +329,35 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 
 ";
         
-        $__internal_d82b7715d22340fcb87ca753cbbf2412f97a4c255a167f220377bc6664ddc125->leave($__internal_d82b7715d22340fcb87ca753cbbf2412f97a4c255a167f220377bc6664ddc125_prof);
+        $__internal_243d65939ea3c35406bdb1b44cd271c3215d6117de336b1042facdf766b02892->leave($__internal_243d65939ea3c35406bdb1b44cd271c3215d6117de336b1042facdf766b02892_prof);
 
     }
 
-    // line 125
+    // line 119
     public function block_ar($context, array $blocks = array())
     {
-        $__internal_ab43a6c4fafdda3daceffb4a223f76d7838212f5a7af2abfdd16c696325b2ae6 = $this->env->getExtension("native_profiler");
-        $__internal_ab43a6c4fafdda3daceffb4a223f76d7838212f5a7af2abfdd16c696325b2ae6->enter($__internal_ab43a6c4fafdda3daceffb4a223f76d7838212f5a7af2abfdd16c696325b2ae6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "ar"));
+        $__internal_22500dfe544e7a3bbe4cfdd671bc9f6cd6d65e85137cf0f04f5dffd1416260bb = $this->env->getExtension("native_profiler");
+        $__internal_22500dfe544e7a3bbe4cfdd671bc9f6cd6d65e85137cf0f04f5dffd1416260bb->enter($__internal_22500dfe544e7a3bbe4cfdd671bc9f6cd6d65e85137cf0f04f5dffd1416260bb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "ar"));
 
-        // line 126
+        // line 120
         echo "
                             ";
         
-        $__internal_ab43a6c4fafdda3daceffb4a223f76d7838212f5a7af2abfdd16c696325b2ae6->leave($__internal_ab43a6c4fafdda3daceffb4a223f76d7838212f5a7af2abfdd16c696325b2ae6_prof);
+        $__internal_22500dfe544e7a3bbe4cfdd671bc9f6cd6d65e85137cf0f04f5dffd1416260bb->leave($__internal_22500dfe544e7a3bbe4cfdd671bc9f6cd6d65e85137cf0f04f5dffd1416260bb_prof);
 
     }
 
-    // line 161
+    // line 155
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_c7bd2032199ef5d4890e3848ac8cbc1e9ec0e1968f15a6398f52bdb561478e62 = $this->env->getExtension("native_profiler");
-        $__internal_c7bd2032199ef5d4890e3848ac8cbc1e9ec0e1968f15a6398f52bdb561478e62->enter($__internal_c7bd2032199ef5d4890e3848ac8cbc1e9ec0e1968f15a6398f52bdb561478e62_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_fff114273ce7c85f74f60f7854a8121f2a60d2a7a7fae0142988d17bf9038491 = $this->env->getExtension("native_profiler");
+        $__internal_fff114273ce7c85f74f60f7854a8121f2a60d2a7a7fae0142988d17bf9038491->enter($__internal_fff114273ce7c85f74f60f7854a8121f2a60d2a7a7fae0142988d17bf9038491_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
-        // line 162
+        // line 156
         echo "
                            ";
         
-        $__internal_c7bd2032199ef5d4890e3848ac8cbc1e9ec0e1968f15a6398f52bdb561478e62->leave($__internal_c7bd2032199ef5d4890e3848ac8cbc1e9ec0e1968f15a6398f52bdb561478e62_prof);
+        $__internal_fff114273ce7c85f74f60f7854a8121f2a60d2a7a7fae0142988d17bf9038491->leave($__internal_fff114273ce7c85f74f60f7854a8121f2a60d2a7a7fae0142988d17bf9038491_prof);
 
     }
 
@@ -385,7 +373,7 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 
     public function getDebugInfo()
     {
-        return array (  369 => 162,  363 => 161,  355 => 126,  349 => 125,  337 => 181,  333 => 180,  329 => 179,  325 => 178,  321 => 177,  317 => 176,  313 => 175,  309 => 174,  305 => 173,  294 => 164,  292 => 161,  271 => 143,  254 => 128,  252 => 125,  224 => 100,  220 => 99,  211 => 93,  207 => 92,  198 => 86,  194 => 85,  185 => 79,  181 => 78,  172 => 72,  168 => 71,  159 => 65,  155 => 64,  111 => 22,  105 => 21,  96 => 19,  92 => 18,  88 => 17,  84 => 16,  80 => 15,  76 => 14,  72 => 13,  68 => 12,  60 => 7,  56 => 6,  52 => 5,  48 => 4,  43 => 3,  37 => 2,  11 => 1,);
+        return array (  357 => 156,  351 => 155,  343 => 120,  337 => 119,  325 => 175,  321 => 174,  317 => 173,  313 => 172,  309 => 171,  305 => 170,  301 => 169,  297 => 168,  293 => 167,  282 => 158,  280 => 155,  259 => 137,  242 => 122,  240 => 119,  212 => 94,  208 => 93,  198 => 86,  194 => 85,  185 => 79,  181 => 78,  172 => 72,  168 => 71,  159 => 65,  155 => 64,  111 => 22,  105 => 21,  96 => 19,  92 => 18,  88 => 17,  84 => 16,  80 => 15,  76 => 14,  72 => 13,  68 => 12,  60 => 7,  56 => 6,  52 => 5,  48 => 4,  43 => 3,  37 => 2,  11 => 1,);
     }
 }
 /* {% extends "::base.html.twig" %}*/
@@ -476,13 +464,7 @@ class __TwigTemplate_21b60117e6ca6565707f5f61297a3e13dc85be71073edaa0fedce5af15e
 /*                                         <li><a href="{{ path('Specialite_new') }}">ajouter Specialite </a></li>*/
 /*                                     </ul>*/
 /*                                 </div>*/
-/*                                 <div class="dropdown">*/
-/*                                     <a class="btn btn-primary dropdown-toggle"  data-toggle="dropdown" style="width: 222px; "><i class="fa fa-edit"></i> Note  <span class="fa fa-chevron-down"></span></a>*/
-/*                                     <ul class="dropdown-menu" style="width: 222px;">*/
-/*                                         <li><a href="{{ path('note_index') }}">list note </a></li>*/
-/*                                         <li><a href="{{ path('note_new') }}">ajouter note </a></li>*/
-/*                                     </ul>*/
-/*                                 </div>*/
+/* */
 /*                                 <div class="dropdown">*/
 /*                                     <a class="btn btn-primary dropdown-toggle"  data-toggle="dropdown" style="width: 222px; "><i class="fa fa-edit"></i> Matiere  <span class="fa fa-chevron-down"></span></a>*/
 /*                                     <ul class="dropdown-menu" style="width: 222px;">*/

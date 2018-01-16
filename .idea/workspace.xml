@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/note/index.html.twig" description="{% extends 'base.html.twig' %}&#10;&#10;{% block body %}" line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff43fefe-5f84-4548-84b7-6330b18c6530" name="Default" comment="version 0">
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c657223616464436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c657223616464436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236564697453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236564697453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/4c/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572237265636853747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/4c/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572237265636853747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/76/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722365646974656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/76/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722365646974656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/78/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223616464656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/78/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223616464656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/8f/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572236c697374656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/8f/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572236c697374656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/b9/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722372656d6f766553747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/b9/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722372656d6f766553747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/d2/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c69737453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/d2/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c69737453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722361646453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722361646453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ec/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c697374436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ec/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c697374436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223416c657274416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223416c657274416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656d6f7665656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656d6f7665656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/f6/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656368456e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/f6/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656368456e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/06/0688a71b57d737ada54b66f3fdf8dd447ce4fc83aed24b3cd49b1c891c1d12b6.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/06/0688a71b57d737ada54b66f3fdf8dd447ce4fc83aed24b3cd49b1c891c1d12b6.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/07/07033b9aa0a40c2857a1b1a6d14fcf7528788f0e1f48ea349921ddec1311f923.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/07/07033b9aa0a40c2857a1b1a6d14fcf7528788f0e1f48ea349921ddec1311f923.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/2a/2ae6d171b1991280a610b1e3721bbaa3ad14b742331dbd7d1699b17ce448249b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/2a/2ae6d171b1991280a610b1e3721bbaa3ad14b742331dbd7d1699b17ce448249b.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/55/5523508b55965af7067c3d2593fcec5a40506da84002538918b055876d64adfb.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/55/5523508b55965af7067c3d2593fcec5a40506da84002538918b055876d64adfb.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/5900f75421bc91ea5f908e8b7d6c8f9c7989b3ecb1ecbe3c0a74f9e2c4ccb8b5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/5900f75421bc91ea5f908e8b7d6c8f9c7989b3ecb1ecbe3c0a74f9e2c4ccb8b5.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/59441a2edb8f138a4244fb596eff518d839ff3fa006d02b1078117db261c9a84.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/59441a2edb8f138a4244fb596eff518d839ff3fa006d02b1078117db261c9a84.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/59713d3b88015f62eb737a2238cce5c6b99025f959eaf9be905be8c8c29ae219.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/59713d3b88015f62eb737a2238cce5c6b99025f959eaf9be905be8c8c29ae219.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/63/632e85b7d0abdbdf55e83752290d9dd450a36bb80d580cb8b004a05e69816a95.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/63/632e85b7d0abdbdf55e83752290d9dd450a36bb80d580cb8b004a05e69816a95.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/73/733a1f55b04206b3f979edc6656e1c1e348725e636610c34aa3d39ed6bfe49ed.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/73/733a1f55b04206b3f979edc6656e1c1e348725e636610c34aa3d39ed6bfe49ed.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/a5/a54a3504f12e40374ccbee1da7216c501613fd849dabc12ce7b8c29174988f89.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a5/a54a3504f12e40374ccbee1da7216c501613fd849dabc12ce7b8c29174988f89.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/c1/c1c2a2d239a343ae4b16f23cabd9a6bfd9f6364628834390fec642c833974bc4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c1/c1c2a2d239a343ae4b16f23cabd9a6bfd9f6364628834390fec642c833974bc4.php" />
+      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed87a713ab66486529d6d67249ed1c4c9b04277b1e5bb6d853e5b0331ccf8cc8.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed87a713ab66486529d6d67249ed1c4c9b04277b1e5bb6d853e5b0331ccf8cc8.php" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Controller/EnseignantController.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Controller/EnseignantController.php" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Redirection/AfterLoginRedirection.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Redirection/AfterLoginRedirection.php" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="addenseignant.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/addenseignant.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ens.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" column="95" lean-forward="false" selection-start-line="64" selection-start-column="95" selection-end-line="64" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_classe.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_classe.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClasseType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chekType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/chekType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="twig" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>path</find>
+    </findStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="router" />
+      <command text=" php app/console debug:router " />
+      <command text=" php app/console generate:controller " />
+      <command text="php app/console generate:controller " />
+      <command text=" php app/console generate:controller index" />
+      <command text=" php app/console generate:controller  --controller --action" />
+      <command text=" php app/console generate:controller  --controller  index " />
+      <command text=" php app/console generate:controller  MyschoolBundle:Index" />
+      <command text=" php bin/console generate:controller  " />
+      <command text="php bin/console generate:controller" />
+      <command text="php app/console generate:controller" />
+      <command text="$ php bin/console generate:controller --controller=MyschoolBundle:Index" />
+      <command text="php bin/console generate:controller --controller=MyschoolBundle:Index" />
+      <command text="php app/console generate:controller --controller=MyschoolBundle:Index" />
+      <command text=" php app/console debug:router " />
+      <command text="php app/console generate:controller " />
+      <command text=" php app/console fos:user:create " />
+      <command text=" php app/console fos:user:create ahmed khalil12@gmail.com 0000" />
+      <command text=" php app/console doctrine:generate:entity " />
+      <command text=" php app/console doctrine:generate:Form" />
+      <command text=" php app/console doctrine:generate:form " />
+      <command text=" php app/console doctrine:generate:form MyschoolBundle:ClasseType MyschooleBundle:Classe" />
+      <command text=" php app/console doctrine:generate:form MyschoolBundle:ClasseType " />
+      <command text="php app/console generate:doctrine:form MyschooleBundle:ClasseType" />
+      <command text="php app/console doctrine:generate:form MyschoolBundle:ClasseType" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Entity/Enseignant.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/listenseignant.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/addenseignant.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_student.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_student.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/matiere/edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/editStudent.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/editenseignant.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Specialite/add_specialite.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Specialite/list_specialite.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Specialite/edit_specialite.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/alert.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Email/ensegniant.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Security/login_index.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Redirection/AfterLoginRedirection.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Controller/EnseignantController.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Form/StudentType.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php" />
+        <option value="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="956" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="My" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schoolBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Student" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/My/schoolBundle/Form" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/images" />
+      <recent name="$PROJECT_DIR$/web/bundles/js" />
+      <recent name="$PROJECT_DIR$/web/bundles/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff43fefe-5f84-4548-84b7-6330b18c6530" name="Default" comment="" />
+      <created>1513603634906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513603634906</updated>
+      <workItem from="1513603637515" duration="244000" />
+      <workItem from="1514023976498" duration="8976000" />
+      <workItem from="1514036231711" duration="2432000" />
+      <workItem from="1514118281713" duration="14378000" />
+      <workItem from="1514193830864" duration="598000" />
+      <workItem from="1514572328234" duration="937000" />
+      <workItem from="1514576574337" duration="6804000" />
+      <workItem from="1515328764169" duration="21000" />
+      <workItem from="1515845554732" duration="602000" />
+      <workItem from="1515859220990" duration="15684000" />
+      <workItem from="1515936733340" duration="8716000" />
+      <workItem from="1516015993849" duration="163000" />
+      <workItem from="1516031226241" duration="60000" />
+      <workItem from="1516031479769" duration="320000" />
+      <workItem from="1516034050867" duration="576000" />
+      <workItem from="1516094896430" duration="5823000" />
+      <workItem from="1516101801817" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66461000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19427083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.264232" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24597207" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/alert.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/SpecialiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/js/google_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/color/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/RegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/ChangePasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/ResettingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Tests/Security/EmailUserProviderTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Security/LoginManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/ProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Command/ActivateUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Command/CreateUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Command/DemoteUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Command/PromoteUserCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/EnseignantController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Security/login_index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="89" column="66" lean-forward="false" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Redirection/AfterLoginRedirection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/MyschoolBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Enseignant/addenseignant.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/note/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/note/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/noteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/MatiereController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="107" column="43" lean-forward="false" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/note/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#12#48#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="154" lean-forward="false" selection-start-line="25" selection-start-column="154" selection-end-line="25" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="95" lean-forward="false" selection-start-line="64" selection-start-column="95" selection-end-line="64" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="144" lean-forward="false" selection-start-line="18" selection-start-column="144" selection-end-line="18" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/note/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="73" column="93" lean-forward="false" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/StudentType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_student.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/chekType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

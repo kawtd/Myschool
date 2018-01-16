@@ -1,9 +1,9 @@
-{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+{% extends "MyschoolBundle:Default:ens.html.twig" %}
 
 {% block menu %}
     <h1>note</h1>
 
-    <table>
+    <table class="table">
         <tbody>
             <tr>
                 <th>Id</th>
@@ -33,6 +33,12 @@
                 <th>Moyenne</th>
                 <td>{{ note.moyenne }}</td>
             </tr>
+            <tr>
+                <th>action</th>
+                <td><a  class="btn btn-success" href="{{ path('note_edit', { 'id': note.id }) }}"><i class="glyphicon glyphicon-edit"></i>modifier</a>{{ form_start(delete_form) }}
+                    <input class="btn btn-danger" type="submit" value="supprimer">
+                    {{ form_end(delete_form) }} </td>
+            </tr>
         </tbody>
     </table>
 
@@ -40,13 +46,7 @@
         <li>
             <a href="{{ path('note_index') }}">Back to the list</a>
         </li>
-        <li>
-            <a href="{{ path('note_edit', { 'id': note.id }) }}">Edit</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
+
+
     </ul>
 {% endblock %}

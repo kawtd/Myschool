@@ -4,7 +4,8 @@ security:
         FOS\UserBundle\Model\UserInterface: bcrypt
 
     role_hierarchy:
-        ROLE_ADMIN:       ROLE_USER
+        ROLE_ACTION:    ROLE_ENSE
+        ROLE_ACTIONE:       ROLE_STUD
         ROLE_SUPER_ADMIN: ROLE_ADMIN
 
     providers:
@@ -23,6 +24,7 @@ security:
                 default_target_path:            /affichage
                 target_path_parameter:          _target_path
                 use_referer:                    false
+                success_handler: redirect.after.login
                 
             
             remember_me:
@@ -32,7 +34,7 @@ security:
                 
             logout:
                 path:   /logout
-                target: /index
+                target: /login
                 invalidate_session: false
                 delete_cookies:
                     a: { path: null, domain: null }

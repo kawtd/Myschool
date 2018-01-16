@@ -1,4 +1,4 @@
-{% extends "MyschoolBundle:Default:affichage.html.twig" %}
+{% extends "MyschoolBundle:Default:ens.html.twig" %}
 
 {% block menu %}
     <h1>note list</h1>
@@ -27,11 +27,11 @@
                 <td>{{ note.pourcentageExam }}</td>
                 <td>{{ note.moyenne }}</td>
                 <td>
-                    <a class="btn btn-primary" href="{{ path('note_show', { 'id': note.id }) }}"><i class="glyphicon glyphicon-eye-open"></i>detail</a>
-                        
-                    <a class="btn btn-success" href="{{ path('note_edit', { 'id': note.id }) }}"><i class="glyphicon glyphicon-edit"></i>modifier</a> 
+                   <a class="btn btn-primary" href="{{ path('note_show', { 'id': note.id }) }}"><i class="glyphicon glyphicon-eye-open"></i>detail</a>
+
+                    <a class="btn btn-success" href="{{ path('note_edit', { 'id': note.id }) }}"><i class="glyphicon glyphicon-edit"></i>modifier</a>
                     
-                    <a class="btn btn-danger" href="{{ path('note_delete', { 'id': note.id }) }}"><i class="glyphicon glyphicon-trash"></i>supprimer</a> 
+                    <a class="btn btn-danger" href="{{ path('note_delete', { 'id': note.id }) }}"><i class="glyphicon glyphicon-trash"></i>supprimer</a>
                 </td>
             </tr>
         {% endfor %}
@@ -43,4 +43,5 @@
             <a href="{{ path('note_new') }}">Create a new entry</a>
         </li>
     </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 {% endblock %}

@@ -230,8 +230,11 @@
     <parameter key="security.validator.user_password.class">Symfony\Component\Security\Core\Validator\Constraints\UserPasswordValidator</parameter>
     <parameter key="security.expression_language.class">Symfony\Component\Security\Core\Authorization\ExpressionLanguage</parameter>
     <parameter key="security.role_hierarchy.roles" type="collection">
-      <parameter key="ROLE_ADMIN" type="collection">
-        <parameter>ROLE_USER</parameter>
+      <parameter key="ROLE_ACTION" type="collection">
+        <parameter>ROLE_ENSE</parameter>
+      </parameter>
+      <parameter key="ROLE_ACTIONE" type="collection">
+        <parameter>ROLE_STUD</parameter>
       </parameter>
       <parameter key="ROLE_SUPER_ADMIN" type="collection">
         <parameter>ROLE_ADMIN</parameter>
@@ -647,6 +650,9 @@
     </parameter>
   </parameters>
   <services>
+    <service id="redirect.after.login" class="My\schoolBundle\Redirection\AfterLoginRedirection">
+      <argument type="service" id="router"/>
+    </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="kernel"/>
@@ -2234,7 +2240,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5a5a7e16cfe276.12046894</argument>
+            <argument>5a5b805e46d983.86776424</argument>
           </service>
         </argument>
       </argument>
@@ -2287,8 +2293,11 @@
     </service>
     <service id="security.role_hierarchy" class="Symfony\Component\Security\Core\Role\RoleHierarchy" public="false">
       <argument type="collection">
-        <argument key="ROLE_ADMIN" type="collection">
-          <argument>ROLE_USER</argument>
+        <argument key="ROLE_ACTION" type="collection">
+          <argument>ROLE_ENSE</argument>
+        </argument>
+        <argument key="ROLE_ACTIONE" type="collection">
+          <argument>ROLE_STUD</argument>
         </argument>
         <argument key="ROLE_SUPER_ADMIN" type="collection">
           <argument>ROLE_ADMIN</argument>
@@ -2433,7 +2442,7 @@
                     <argument type="service" id="router" on-invalid="null"/>
                   </service>
                 </argument>
-                <argument>/index</argument>
+                <argument>/login</argument>
               </service>
             </argument>
             <argument type="collection">
@@ -2495,26 +2504,16 @@
             </argument>
             <argument>main</argument>
             <argument type="service">
-              <service class="Symfony\Component\Security\Http\Authentication\DefaultAuthenticationSuccessHandler" public="false">
-                <argument type="service">
-                  <service class="Symfony\Component\Security\Http\HttpUtils" public="false">
-                    <argument type="service" id="router" on-invalid="null"/>
-                    <argument type="service" id="router" on-invalid="null"/>
-                  </service>
+              <service class="Symfony\Component\Security\Http\Authentication\CustomAuthenticationSuccessHandler" public="false">
+                <argument type="service" id="redirect.after.login"/>
+                <argument type="collection">
+                  <argument key="always_use_default_target_path">false</argument>
+                  <argument key="default_target_path">/affichage</argument>
+                  <argument key="target_path_parameter">_target_path</argument>
+                  <argument key="use_referer">false</argument>
+                  <argument key="login_path">/login</argument>
                 </argument>
-                <argument type="collection"/>
-                <call method="setOptions">
-                  <argument type="collection">
-                    <argument key="always_use_default_target_path">false</argument>
-                    <argument key="default_target_path">/affichage</argument>
-                    <argument key="target_path_parameter">_target_path</argument>
-                    <argument key="use_referer">false</argument>
-                    <argument key="login_path">/login</argument>
-                  </argument>
-                </call>
-                <call method="setProviderKey">
-                  <argument>main</argument>
-                </call>
+                <argument>main</argument>
               </service>
             </argument>
             <argument type="service">
@@ -2608,7 +2607,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5a5a7e16cfe276.12046894</argument>
+            <argument>5a5b805e46d983.86776424</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -3805,6 +3804,7 @@
       <argument type="service" id="request"/>
       <argument type="service" id="fos_user.user_manager"/>
     </service>
+    <service id="fos_user.doctrine_registry" alias="doctrine"/>
     <service id="session.storage" alias="session.storage.native"/>
     <service id="event_dispatcher" alias="debug.event_dispatcher"/>
     <service id="swiftmailer.spool" alias="swiftmailer.mailer.default.spool"/>

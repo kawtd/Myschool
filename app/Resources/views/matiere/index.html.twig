@@ -3,7 +3,7 @@
 {% block menu %}
     <h1>Matiere list</h1>
 
-    <table>
+    <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
@@ -18,12 +18,12 @@
                 <td>{{ matiere.libelle }}</td>
                 <td>
                     <ul>
-                        <li>
-                            <a href="{{ path('matiere_show', { 'id': matiere.id }) }}">show</a>
-                        </li>
-                        <li>
-                            <a href="{{ path('matiere_edit', { 'id': matiere.id }) }}">edit</a>
-                        </li>
+
+
+
+                            <a class="btn btn-success" href="{{ path('matiere_edit', { 'id': matiere.id }) }}"><i class="glyphicon glyphicon-edit"></i> modifier</a>
+
+                            <a class="btn btn-danger" href="{{ path('matiere_delete', { 'id': matiere.id }) }}"><i class="glyphicon glyphicon-trash"></i> supprimer</a>
                     </ul>
                 </td>
             </tr>

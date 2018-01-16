@@ -8,6 +8,7 @@
             <tr>
                 <th>Id</th>
                 <th>Libelle</th>
+                <th>action</th>
             </tr>
         </thead>
         <tbody>
@@ -15,6 +16,7 @@
             <tr>
                 <td>{{ cl.id }}</td>
                 <td>{{ cl.libelle }}</td>
+                <td><a class="btn btn-success" href="{{ path('edit_Class', { 'id': cl.id }) }}"><i class="glyphicon glyphicon-plus-sign"></i> Modifier</a></td>
             </tr>
         {% endfor %}
         </tbody>
