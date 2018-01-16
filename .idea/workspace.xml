@@ -4,58 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/app/Resources/views/note/index.html.twig" description="{% extends 'base.html.twig' %}&#10;&#10;{% block body %}" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff43fefe-5f84-4548-84b7-6330b18c6530" name="Default" comment="version 0">
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/index.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/new.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/matiere/show.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/edit.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/index.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/new.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/note/show.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c657223616464436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c657223616464436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236564697453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236564697453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/4c/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572237265636853747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/4c/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572237265636853747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/76/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722365646974656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/76/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722365646974656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/78/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223616464656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/78/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223616464656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/8f/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572236c697374656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/8f/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572236c697374656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/b9/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722372656d6f766553747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/b9/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722372656d6f766553747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/d2/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c69737453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/d2/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c69737453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722361646453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c65722361646453747564656e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ec/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c697374436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ec/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c53747564656e74436f6e74726f6c6c6572236c697374436c61737365416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223416c657274416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c657223416c657274416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656d6f7665656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/ef/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656d6f7665656e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/annotations/f6/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656368456e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/f6/5b5b435d4d795c7363686f6f6c42756e646c655c436f6e74726f6c6c65725c456e736569676e616e74436f6e74726f6c6c65722372656368456e736569676e616e74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/06/0688a71b57d737ada54b66f3fdf8dd447ce4fc83aed24b3cd49b1c891c1d12b6.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/06/0688a71b57d737ada54b66f3fdf8dd447ce4fc83aed24b3cd49b1c891c1d12b6.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/07/07033b9aa0a40c2857a1b1a6d14fcf7528788f0e1f48ea349921ddec1311f923.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/07/07033b9aa0a40c2857a1b1a6d14fcf7528788f0e1f48ea349921ddec1311f923.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/2a/2ae6d171b1991280a610b1e3721bbaa3ad14b742331dbd7d1699b17ce448249b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/2a/2ae6d171b1991280a610b1e3721bbaa3ad14b742331dbd7d1699b17ce448249b.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/55/5523508b55965af7067c3d2593fcec5a40506da84002538918b055876d64adfb.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/55/5523508b55965af7067c3d2593fcec5a40506da84002538918b055876d64adfb.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/5900f75421bc91ea5f908e8b7d6c8f9c7989b3ecb1ecbe3c0a74f9e2c4ccb8b5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/5900f75421bc91ea5f908e8b7d6c8f9c7989b3ecb1ecbe3c0a74f9e2c4ccb8b5.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/59441a2edb8f138a4244fb596eff518d839ff3fa006d02b1078117db261c9a84.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/59441a2edb8f138a4244fb596eff518d839ff3fa006d02b1078117db261c9a84.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/59/59713d3b88015f62eb737a2238cce5c6b99025f959eaf9be905be8c8c29ae219.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/59/59713d3b88015f62eb737a2238cce5c6b99025f959eaf9be905be8c8c29ae219.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/63/632e85b7d0abdbdf55e83752290d9dd450a36bb80d580cb8b004a05e69816a95.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/63/632e85b7d0abdbdf55e83752290d9dd450a36bb80d580cb8b004a05e69816a95.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/73/733a1f55b04206b3f979edc6656e1c1e348725e636610c34aa3d39ed6bfe49ed.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/73/733a1f55b04206b3f979edc6656e1c1e348725e636610c34aa3d39ed6bfe49ed.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/a5/a54a3504f12e40374ccbee1da7216c501613fd849dabc12ce7b8c29174988f89.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a5/a54a3504f12e40374ccbee1da7216c501613fd849dabc12ce7b8c29174988f89.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/c1/c1c2a2d239a343ae4b16f23cabd9a6bfd9f6364628834390fec642c833974bc4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c1/c1c2a2d239a343ae4b16f23cabd9a6bfd9f6364628834390fec642c833974bc4.php" />
-      <change beforePath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed87a713ab66486529d6d67249ed1c4c9b04277b1e5bb6d853e5b0331ccf8cc8.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed87a713ab66486529d6d67249ed1c4c9b04277b1e5bb6d853e5b0331ccf8cc8.php" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
-      <change beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Controller/EnseignantController.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Controller/EnseignantController.php" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Controller/StudentController.php" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Redirection/AfterLoginRedirection.php" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Redirection/AfterLoginRedirection.php" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/affichage.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Default/ens.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/add_classe.html.twig" />
-      <change beforePath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" afterPath="$PROJECT_DIR$/src/My/schoolBundle/Resources/views/Student/list_classe.html.twig" />
-    </list>
+    <list default="true" id="ff43fefe-5f84-4548-84b7-6330b18c6530" name="Default" comment="version 0" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,8 +82,8 @@
       <file leaf-file-name="ClasseType.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="442">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -471,12 +420,12 @@
       <workItem from="1516031479769" duration="320000" />
       <workItem from="1516034050867" duration="576000" />
       <workItem from="1516094896430" duration="5823000" />
-      <workItem from="1516101801817" duration="127000" />
+      <workItem from="1516101801817" duration="316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66461000" />
+    <option name="totallyTimeSpent" value="66650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1038" extended-state="6" />
@@ -884,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/My/schoolBundle/Form/ClasseType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="442">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding />
         </state>
       </provider>
